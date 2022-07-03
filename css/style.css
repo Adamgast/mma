@@ -867,25 +867,10 @@ h6 {
 }
 .school__img img {
   max-width: 100%;
-  border-radius: 360px 0;
+  border-radius: 55% 0;
   overflow: hidden;
   transform: translateX(-100%);
   opacity: 0;
-}
-@media (max-width: 61.99875em) {
-  .school__img img {
-    border-radius: 260px 0;
-  }
-}
-@media (max-width: 47.99875em) {
-  .school__img img {
-    border-radius: 360px 0;
-  }
-}
-@media (max-width: 29.99875em) {
-  .school__img img {
-    border-radius: 250px 0;
-  }
 }
 .school__img._watcher-view img {
   transition: all 0.7s ease 0.2s;
